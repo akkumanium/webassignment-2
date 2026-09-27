@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 4</title>
+
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .projects {
+            display: grid;
+            gap: 20px;
+        }
+
+        .project {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .project button {
+            align-self: flex-start;
+        }
+
+        .sidebar {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Portfolio</h2>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="projects">
+
+            <div class="project">
+                <h2>Project 1</h2>
+                <p>This is my first project.</p>
+                <button>View Project</button>
+            </div>
+
+            <div class="project">
+                <h2>Project 2</h2>
+                <p>This is my second project.</p>
+                <button>View Project</button>
+            </div>
+
+            <div class="project">
+                <h2>Project 3</h2>
+                <p>This is my third project.</p>
+                <button>View Project</button>
+            </div>
+
+        </section>
+
+
+        <aside class="sidebar">
+            <h2>Info</h2>
+            <p>This is the sidebar.</p>
+        </aside>
+
+    </main>
+
+
+    <footer>
+        <p>Footer</p>
+    </footer>
+
+</body>
+</html>
